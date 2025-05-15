@@ -1,6 +1,6 @@
 <template>
-    <footer class="flex flex-col">
-        <div class="px-65 bg-[#191C1F] flex py-20 gap-35">
+    <footer class="flex flex-col  bg-[#191C1F] ">
+        <div class="px-65 flex py-20 gap-35">
             <div class="flex flex-col gap-7 pt-1">
                 <div class="w-50 "><img src="@/public/Logo.svg" alt="logo" class="size-full"></div>
                 <div class="flex flex-col gap-3">
@@ -63,7 +63,9 @@
                 </div>
             </div>
         </div>
-        <div></div>
+        <div class="border-t border-[#77878F] flex items-center justify-center text-[#ADB7BC] text-sm py-5">
+            <p>Kinbo - eCommerce Template © 2021. Design by Templatecookie</p>
+        </div>
     </footer>
 </template>
 
